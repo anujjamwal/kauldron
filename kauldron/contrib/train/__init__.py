@@ -25,3 +25,4 @@ with _lazy_imports.lazy_api_imports(globals()):
   from kauldron.contrib.train.multi_train_step import MultiTrainStep
   from kauldron.contrib.train.multi_train_step import multi_optimizer
   from kauldron.contrib.train.noop_train_step import NoopTrainStep
+  from kauldron.contrib.train.wandb_metric_writer import WandbMetricWriter

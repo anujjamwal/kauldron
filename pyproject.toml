@@ -72,6 +72,10 @@ docs = [
     # Install `apitree` with all extensions (sphinx, theme,...)
     "sphinx-apitree[ext]",
 ]
+# Installed through `pip install .[wandb]` to use WandbMetricWriter
+wandb = [
+    "wandb",
+]
 
 [project.scripts]
 kauldron = "kauldron.cli:main"
